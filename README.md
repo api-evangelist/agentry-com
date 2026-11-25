@@ -66,7 +66,7 @@
 
 Agentry provides an infrastructure layer for agent commerce, offering identity verification, trust orchestration, and payment processing for AI agents. Their single API enables discovery, verification, invocation, and payment across a network of agents, supporting over 120 registered agents and hundreds of API routes. Built on Nostr, MCP, and A2A protocols, Agentry aims to simplify agent interactions and monetization.
 
-**Areas:** AI · Agents · Trust · Payments · Infrastructure
+**Areas:** Artificial Intelligence · Agents · Trust · Payments · Infrastructure
 
 ## agentry-com on APIs.io
 
@@ -113,18 +113,38 @@ Each property below is a page on APIs.io carrying the machine-readable artifact 
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Agentry Com Agentic Access](https://apis.io/agentic-access/agentry-com/agentry-com-agentic-access/)
+- [agentry-com Agentic Access](https://apis.io/agentic-access/agentry-com/agentry-com-agentic-access/)
 
-#### JSON Schema (6)
+#### JSON Schema (49)
 
 The data models the API reads and writes.
 
+- [AddMemoryRequest](https://apis.io/schemas/agentry-com/agentry-com-add-memory-request/)
+- [AdminCreditRequest](https://apis.io/schemas/agentry-com/agentry-com-admin-credit-request/)
 - [AgentRegistration](https://apis.io/schemas/agentry-com/agentry-com-agent-registration/)
+- [BrokerIntakeForm](https://apis.io/schemas/agentry-com/agentry-com-broker-intake-form/)
 - [BudgetControlRequest](https://apis.io/schemas/agentry-com/agentry-com-budget-control-request/)
+- [BulkOutreachRequest](https://apis.io/schemas/agentry-com/agentry-com-bulk-outreach-request/)
+- [BulkProvisionRequest](https://apis.io/schemas/agentry-com/agentry-com-bulk-provision-request/)
 - [CertificationRecord](https://apis.io/schemas/agentry-com/agentry-com-certification-record/)
+- [CheckoutResponse](https://apis.io/schemas/agentry-com/agentry-com-checkout-response/)
+- [ClaimRequest](https://apis.io/schemas/agentry-com/agentry-com-claim-request/)
 - [CreateContractRequest](https://apis.io/schemas/agentry-com/agentry-com-create-contract-request/)
-- [PingResultRequest](https://apis.io/schemas/agentry-com/agentry-com-ping-result-request/)
-- [QuickstartRequest](https://apis.io/schemas/agentry-com/agentry-com-quickstart-request/)
+- [CreateOrgRequest](https://apis.io/schemas/agentry-com/agentry-com-create-org-request/)
+- [CreatePrivateAgentRequest](https://apis.io/schemas/agentry-com/agentry-com-create-private-agent-request/)
+- [CreateWalletRequest](https://apis.io/schemas/agentry-com/agentry-com-create-wallet-request/)
+- [CreditRequest](https://apis.io/schemas/agentry-com/agentry-com-credit-request/)
+- [DebitRequest](https://apis.io/schemas/agentry-com/agentry-com-debit-request/)
+- [DiscoveryRunRequest](https://apis.io/schemas/agentry-com/agentry-com-discovery-run-request/)
+- [DomainScanRequest](https://apis.io/schemas/agentry-com/agentry-com-domain-scan-request/)
+- [EcashPaymentProfile](https://apis.io/schemas/agentry-com/agentry-com-ecash-payment-profile/)
+- [EntCheckoutRequest](https://apis.io/schemas/agentry-com/agentry-com-ent-checkout-request/)
+- [FundLightningRequest](https://apis.io/schemas/agentry-com/agentry-com-fund-lightning-request/)
+- [FundStripeRequest](https://apis.io/schemas/agentry-com/agentry-com-fund-stripe-request/)
+- [IdentityResponse](https://apis.io/schemas/agentry-com/agentry-com-identity-response/)
+- [InvoiceRequest](https://apis.io/schemas/agentry-com/agentry-com-invoice-request/)
+- [InvoiceResponse](https://apis.io/schemas/agentry-com/agentry-com-invoice-response/)
+- …and 24 more published on APIs.io
 
 #### JSON-LD (1)
 
@@ -142,26 +162,26 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Agentry Com Authentication](https://apis.io/security/agentry-com/agentry-com-authentication/)
-- [Agentry Com Domain Security](https://apis.io/security/agentry-com/agentry-com-domain-security/)
+- [agentry-com Authentication](https://apis.io/security/agentry-com/agentry-com-authentication/)
+- [agentry-com Domain Security](https://apis.io/security/agentry-com/agentry-com-domain-security/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [Agentry Com Scopes](https://apis.io/scopes/agentry-com/agentry-com-scopes/)
+- [agentry-com Scopes](https://apis.io/scopes/agentry-com/agentry-com-scopes/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Agentry Com Plans Pricing](https://apis.io/plans/agentry-com/agentry-com-plans-pricing/)
+- [agentry-com Plans Pricing](https://apis.io/plans/agentry-com/agentry-com-plans-pricing/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [Agentry Com Rate Limits](https://apis.io/rate-limits/agentry-com/agentry-com-rate-limits/)
+- [agentry-com Rate Limits](https://apis.io/rate-limits/agentry-com/agentry-com-rate-limits/)
 
 ## Where to find this API
 
@@ -175,25 +195,25 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 45.7** — developing · rubric 0.25.0 · scored 2026-10-29
+**Kin Score 37.3** — thin · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 66.1 |
+| Discoverability | 75.0 |
 | Contract quality | 53.3 |
-| Contract governance | 79.1 |
-| Operational transparency | 28.4 |
+| Contract governance | 22.0 |
+| Operational transparency | 28.6 |
 | Developer ergonomics | 25.5 |
-| Access clarity | 38.9 |
+| Access clarity | 34.0 |
 
 **Agent readiness 42.9** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
-| MCP Server | documented (partial credit) |
+| MCP Server | verified |
 | Auth Clarity | — |
 | Idempotency | — |
 | Error Semantics | verified |
@@ -211,8 +231,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | — |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 17.5** — Payments
+**Regulatory alignment 12.5** — Payments
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agentry-com/](https://apis.io/providers/agentry-com/).
 
